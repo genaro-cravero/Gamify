@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Arista Pro';
+    src: url(./assets/fonts/Arista-Pro-Regular-trial.ttf);
+}
+@font-face {
+    font-family: 'Stefans';
+    src: url(./assets/fonts/Stefans-Uhr-Square.ttf);
+}
+@font-face {
+    font-family: 'Good Timing';
+    src: url(./assets/fonts/good-timing-bd.otf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -30,7 +43,7 @@ header img{
     height: 150px;
 }
 header nav{
-    margin-left: 25%;
+    margin-left: 20%;
     display: flex;
     gap: 35px;
 }
@@ -38,13 +51,14 @@ header nav a{
     text-decoration: none;
     color: #ffff;
     font-size: 1.8rem;
+    font-family: 'Arista Pro';
+    letter-spacing: 0.3rem;
 }
 
 
 /*// Main*/
 main video{
     width: 100%;
-    
 }
 main{
     height: 90vh;
@@ -52,4 +66,25 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+main .TextVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+main h1{
+    font-family: 'Good Timing';
+    font-size: 8rem;
+    color: #ffff;
+    text-align: center;
+    text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
+}
+main h2{
+    color: #ffff;
+    font-size: 1.8rem;
+    font-family: 'Arista Pro';
+    letter-spacing: 0.3rem;
+    margin-top: 3rem;
 }
