@@ -1,3 +1,6 @@
+/** Libraries*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+/** Fonts*/
 @font-face {
     font-family: 'Arista Pro';
     src: url(./assets/fonts/Arista-Pro-Regular-trial.ttf);
@@ -25,7 +28,7 @@ body{
 /*// Header*/
 
 header{
-    background-color: rgba(90, 0, 0, 0.665);
+    background-color: rgba(90, 0, 0, 0.854);
     color: #ffff;
     height: 13vh;
     position: absolute;
@@ -53,33 +56,32 @@ header nav a{
     font-size: 1.8rem;
     font-family: 'Arista Pro';
     letter-spacing: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+header nav a i{
+    font-size: 2.5rem;
+}
+header nav a:hover{
+    font-size: 2rem;
+    transition: 0.5s;
+    text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
+    
+}
+header nav a i:hover{
+    font-size: 2.8rem;
+    transition: 0.5s;
+    text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
 }
 
 
 /*// Main*/
-main video{
-    width: 100%;
-}
-main{
+.main{
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-main .TextVideo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-}
-main h1{
-    font-family: 'Good Timing';
-    font-size: 8rem;
-    color: #ffff;
-    text-align: center;
-    text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
 }
 main h2{
     color: #ffff;
@@ -87,4 +89,83 @@ main h2{
     font-family: 'Arista Pro';
     letter-spacing: 0.3rem;
     margin-top: 3rem;
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#fb7f7fd3, #ff5656d5);
+    width: 38vw;
+    height: 4vh;
+    border-radius: 2rem;
+    box-shadow: 0 0 30px 10px #FF5656;
+}
+/*? Video*/
+.videoSection video{
+    width: 100%;
+    margin-top: -5%;
+}
+.videoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.videoSection .textVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.videoSection h1{
+    font-family: 'Good Timing';
+    font-size: 8rem;
+    color: #ffff;
+    text-align: center;
+    text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
+}
+
+/*? Categories*/
+.categoriesSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.categoriesSection .categories{
+    background-color: rgba(90, 0, 0, 0.854);
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    height: 50vh;
+    width: 50vw;
+    padding: 1rem;
+    gap: 7rem;
+}
+.categoriesSection a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 2rem;
+    font-family: 'Stefans';
+    width: 100%;    
+    text-align: center;
+}
+.categoriesSection a i{
+    font-size: 7rem;
+}
+.categoriesSection a:hover{
+    font-size: 2.3rem;
+    transition: 0.5s;
+    text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
+
+
+}
+.categoriesSection nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
