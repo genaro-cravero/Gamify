@@ -61,28 +61,22 @@ header nav a{
 }
 header nav a i{
     font-size: 2.5rem;
+
 }
 header nav a:hover{
-    font-size: 2rem;
+    font-size: 1.9rem;
     transition: 0.5s;
     text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
     
 }
 header nav a i:hover{
-    font-size: 2.8rem;
-    transition: 0.5s;
+    font-size: 2.7rem;
+    transition: 0.3s;
     text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
 }
 
 
 /*// Main*/
-.main{
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 main h2{
     color: #ffff;
     font-size: 1.8rem;
@@ -101,15 +95,22 @@ main h2{
     box-shadow: 0 0 30px 10px #FF5656;
 }
 /*? Video*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .videoSection video{
     width: 100%;
     margin-top: -5%;
+    z-index: -1;
 }
 .videoSection{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 .videoSection .textVideo{
     display: flex;
@@ -140,10 +141,10 @@ main h2{
     flex-direction: column;
     justify-content: center;
     margin-top: 5rem;
-    height: 50vh;
-    width: 50vw;
+    height: 60vh;
+    width: 80vw;
     padding: 1rem;
-    gap: 7rem;
+    gap: 25%;
 }
 .categoriesSection a{
     text-decoration: none;
@@ -152,6 +153,8 @@ main h2{
     font-family: 'Stefans';
     width: 100%;    
     text-align: center;
+    transition: 0.2s;
+
 }
 .categoriesSection a i{
     font-size: 7rem;
@@ -160,12 +163,46 @@ main h2{
     font-size: 2.3rem;
     transition: 0.5s;
     text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
-
-
 }
 .categoriesSection nav{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+/*? Monitors*/
+.monitorsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: min-content*2;
+}
+.monitorsContainer .monitor{
+    background-color: rgba(90, 0, 0, 0.854);
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    height: 40vh;
+    width: 20vw;
+    padding: 1rem;
+}
+.monitorsContainer .monitor img{
+    width: 80%;
+}
+
+/*// Footer*/
+footer{
+    background-color: rgba(90, 0, 0, 0.854);
+    color: #ffff;
+    height: 10vh;
+    width: 100%;
+    padding: 10px;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
 }

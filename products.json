@@ -1,0 +1,24 @@
+{
+    "monitors": [
+        {
+            "name": "Monitor 24\" Gigabyte Edge G24F 2 165Hz 1ms ",
+            "price": 129.999,
+            "image": "./assets/images/Monitor1.png"
+        },
+        {
+            "name": "Monitor 24\" Asus Tuf Gaming VG24VQE Curvo 165Hz",
+            "price": 135.499,
+            "image": "./assets/images/Monitor2.png"
+        },
+        {
+            "name": "Monitor 22\" Samsung T350FH 75Hz",
+            "price": 82.390,
+            "image": "./assets/images/Monitor3.png"
+        },
+        {
+            "name": "Monitor 19.5'' E-View 1951AXA ",
+            "price": 49.990,
+            "image": "./assets/images/Monitor4.png"
+        }
+    ]
+}
