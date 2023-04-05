@@ -16,9 +16,10 @@ async function getProducts(category, container){
         container.innerHTML += 
         `
         <div class="monitor">
-        <img src="${product.image}" alt="Monitor">
-        <h3>${product.name}</h3>
-        <p>$ ${product.price}</p>
+            <img src="${product.image}" alt="Monitor">
+            <h3>${product.name}</h3>
+            <p>$ ${product.price}</p>
+            <button class="btn">Comprar</button>
         </div> 
         `
     }

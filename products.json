@@ -6,18 +6,18 @@
             "image": "./assets/images/Monitor1.png"
         },
         {
-            "name": "Monitor 24\" Asus Tuf Gaming VG24VQE Curvo 165Hz",
+            "name": "Monitor 24\" Asus Tuf VG24VQE Curvo 165Hz",
             "price": 135.499,
             "image": "./assets/images/Monitor2.png"
         },
         {
             "name": "Monitor 22\" Samsung T350FH 75Hz",
-            "price": 82.390,
+            "price": 82.399,
             "image": "./assets/images/Monitor3.png"
         },
         {
             "name": "Monitor 19.5'' E-View 1951AXA ",
-            "price": 49.990,
+            "price": 49.999,
             "image": "./assets/images/Monitor4.png"
         }
     ]
