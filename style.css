@@ -197,11 +197,14 @@ main{
     width: 20vw;
     padding-top: 1rem;
     padding-bottom: 2rem;
+    transition: 0.2s;
+
 }
 .monitorsContainer .monitor img{
     width: 80%;
     -webkit-filter: drop-shadow(0 0 10px #FF5656);
     filter: drop-shadow(0 0 10px #FF5656);
+    transition: 0.2s;
 }
 .monitorsContainer .monitor h3{
     font-size: 1.3rem;
@@ -228,13 +231,13 @@ main{
     border-radius: 0.5rem;
 }
 .monitorsContainer .monitor:hover img{
-    transition: 2s;
+    transition: 1s;
     transform: scale(1.1) translateY(-2vh);
 }
 .monitorsContainer .monitor:hover{
-    transition: 2s;
+    transition: 1s;
     height: 47vh;
-    /* background-color: linear-gradient(red, yellow); */
+    background: linear-gradient( rgba(59, 0, 0, 0.411), rgba(90, 0, 0, 0.854), rgb(136, 1, 1));
 }
 /*// Footer*/
 footer{
