@@ -170,8 +170,8 @@ main{
     align-items: center;
     gap: 1rem;
 }
-/*? Monitors*/
-.monitors{
+/*? Cards*/
+.products{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,7 +185,7 @@ main{
     align-items: center;
     margin-top: 5rem;
 }
-.monitorsContainer .monitor{
+.card{
     background-color: rgba(90, 0, 0, 0.854);
     color: #ffff;
     display: flex;
@@ -200,26 +200,27 @@ main{
     transition: 0.2s;
 
 }
-.monitorsContainer .monitor img{
+.card img{
     width: 80%;
     -webkit-filter: drop-shadow(0 0 10px #FF5656);
     filter: drop-shadow(0 0 10px #FF5656);
+    opacity: .8;
     transition: 0.2s;
 }
-.monitorsContainer .monitor h3{
+.card h3{
     font-size: 1.3rem;
     font-family: 'Stefans';
     text-align: center;
     font-weight: 100;
     margin-top: 1rem;
 }
-.monitorsContainer .monitor p{
+.card p{
     font-size: 2.5rem;
     font-family: 'Good Timing';
     font-weight: 100;
     margin-top: 1rem;
 }
-.monitorsContainer .monitor button{
+.card button{
     background-color: #FF5656;
     color: #ffff;
     font-size: 1.5rem;
@@ -230,11 +231,13 @@ main{
     border: none;
     border-radius: 0.5rem;
 }
-.monitorsContainer .monitor:hover img{
+.card:hover img{
     transition: 1s;
     transform: scale(1.1) translateY(-2vh);
+    opacity: 1;
+
 }
-.monitorsContainer .monitor:hover{
+.card:hover{
     transition: 1s;
     height: 47vh;
     background: linear-gradient( rgba(59, 0, 0, 0.411), rgba(90, 0, 0, 0.854), rgb(136, 1, 1));
