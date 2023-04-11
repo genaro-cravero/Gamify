@@ -77,6 +77,11 @@ header nav a i:hover{
 
 
 /*// Main*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 main h2{
     color: #ffff;
     font-size: 1.8rem;
@@ -95,12 +100,6 @@ main h2{
     box-shadow: 0 0 30px 10px #FF5656;
 }
 /*? Video*/
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .videoSection video{
     width: 100%;
     margin-top: -5%;
@@ -178,7 +177,7 @@ main{
     align-items: center;
     margin-top: 5rem;
 }
-.monitorsContainer{
+.monitorsContainer, .keyboardsContainer, .headsetsContainer, .cpuContainer,.storageContainer ,.mouseContainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -246,10 +245,23 @@ main{
 footer{
     background-color: rgba(90, 0, 0, 0.854);
     color: #ffff;
-    height: 10vh;
+    height: 30vh;
     width: 100%;
     padding: 10px;
-    padding-left: 5%;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    position: static;
+    bottom: 0;
+}
+
+footer p{
+    font-size: 1.5rem;
+    font-family: 'Stefans';
+    margin-top: 1rem;
+}
+footer h2{
+    font-size: 2.5rem;
+    font-family: 'Arista Pro';
+    margin-top: 1rem;
 }

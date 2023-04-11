@@ -26,5 +26,125 @@
             "image": "./assets/images/Monitor4.png",
             "alt": "Monitor E-View"
         }
+    ],
+    "keyboards": [
+        {
+            "name": "Teclado Redragon Yama White K550 RGB",
+            "price": 24.999,
+            "image": "./assets/images/Teclado1.png",
+            "alt": "Teclado Redragon Yama White"
+        },
+        {
+            "name": "Teclado Gamer Redragon Kumara Black K552",
+            "price": 16.523,
+            "image": "./assets/images/Teclado2.png",
+            "alt": "Teclado Gamer Redragon K552 RGB"
+        },
+        {
+            "name": "Teclado Corsair K55 RGB Pro XT ",
+            "price": 23.425,
+            "image": "./assets/images/Teclado3.png",
+            "alt": "Teclado  Corsair K55"
+        },
+        {
+            "name": "Teclado Thermaltake Challenger Prime",
+            "price": 6.149,
+            "image": "./assets/images/Teclado4.png",
+            "alt": "Teclado Thermaltake Challenger Prime"
+        }
+    ],
+    "headsets":[
+        {
+            "name": "Auricular T-Dagger Caspian RGH211 ",
+            "price": 7.999,
+            "image": "./assets/images/Auricular1.png",
+            "alt": "Auricular T-Dagger"
+        },
+        {
+            "name": "Auricular Xiaomi Redmi Buds 3 Lite Wireless ",
+            "price": 12.449,
+            "image": "./assets/images/Auricular2.png",
+            "alt": "Auricular Xiaomi Redmi Buds 3"
+        },
+        {
+            "name": "Auricular Redragon Pandora Black H350 RGB 7.1",
+            "price": 16.975,
+            "image": "./assets/images/Auricular3.png",
+            "alt": "Auricular Redragon Pandora"
+        },
+        {
+            "name": "Auricular Logitech G435 Azul",
+            "price": 29.999,
+            "image": "./assets/images/Auricular4.png",
+            "alt": "Auricular Logitech G435"
+        }
+    ],
+    "storage":[
+        {
+            "name": "Disco Duro HDD 2TB Seagate Barracuda 7200rpm",
+            "price": 28.749,
+            "image": "./assets/images/Storage1.png",
+            "alt": "Disco Duro HDD 2TB Seagate Barracuda"
+        },
+        {
+            "name": "Disco Duro HDD 8TB Seagate SkyHawk",
+            "price": 98.549,
+            "image": "./assets/images/Storage2.png",
+            "alt": "Disco Duro HDD 8TB Seagate SkyHawk"
+        },
+        {
+            "name": "Disco Sólido SSD 500GB PNY CS900",
+            "price": 19.999,
+            "image": "./assets/images/Storage3.png",
+            "alt": "Disco Sólido SSD 500GB PNY"
+        },
+        {
+            "name": "Disco Sólido SSD 480GB Gigabyte",
+            "price": 17.425,
+            "image": "./assets/images/Storage4.png",
+            "alt": "Disco Sólido SSD 480GB Gigabyte "
+        }
+    ],
+    "cpu":[
+        {
+            "name": "Disco SSD Kingston A400 240GB",
+            "price": 29.999,
+            "image": "./assets/images/SSD1.png",
+            "alt": "Disco SSD Kingston A400 240GB"
+        },
+        {
+            "name": "Disco SSD Kingston A400 240GB",
+            "price": 29.999,
+            "image": "./assets/images/SSD1.png",
+            "alt": "Disco SSD Kingston A400 240GB"
+        },
+        {
+            "name": "Disco SSD Kingston A400 240GB",
+            "price": 29.999,
+            "image": "./assets/images/SSD1.png",
+            "alt": "Disco SSD Kingston A400 240GB"
+        }
+    ],
+    "mouse":[
+        {
+            "name": "Disco SSD Kingston A400 240GB",
+            "price": 29.999,
+            "image": "./assets/images/SSD1.png",
+            "alt": "Disco SSD Kingston A400 240GB"
+        },
+        {
+            "name": "Disco SSD Kingston A400 240GB",
+            "price": 29.999,
+            "image": "./assets/images/SSD1.png",
+            "alt": "Disco SSD Kingston A400 240GB"
+        },
+        {
+            "name": "Disco SSD Kingston A400 240GB",
+            "price": 29.999,
+            "image": "./assets/images/SSD1.png",
+            "alt": "Disco SSD Kingston A400 240GB"
+        }
     ]
+    
+    
 }
