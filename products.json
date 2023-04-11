@@ -107,42 +107,48 @@
     ],
     "cpu":[
         {
-            "name": "Disco SSD Kingston A400 240GB",
-            "price": 29.999,
-            "image": "./assets/images/SSD1.png",
-            "alt": "Disco SSD Kingston A400 240GB"
+            "name": "Procesador Intel Core i7 10700F LGA1200",
+            "price": 130.999,
+            "image": "./assets/images/Cpu1.png",
+            "alt": "Procesador Intel Core i7 10700F LGA1200"
         },
         {
-            "name": "Disco SSD Kingston A400 240GB",
-            "price": 29.999,
-            "image": "./assets/images/SSD1.png",
-            "alt": "Disco SSD Kingston A400 240GB"
+            "name": "Procesador AMD Ryzen 5 5600G AM4",
+            "price": 98.455,
+            "image": "./assets/images/Cpu2.png",
+            "alt": "Procesador AMD Ryzen 5 5600G AM4"
         },
         {
-            "name": "Disco SSD Kingston A400 240GB",
-            "price": 29.999,
-            "image": "./assets/images/SSD1.png",
-            "alt": "Disco SSD Kingston A400 240GB"
+            "name": "Procesador Intel Core i3 10100F LGA1200",
+            "price": 38.799,
+            "image": "./assets/images/Cpu3.png",
+            "alt": "Procesador Intel Core i3 10100F LGA1200"
         }
     ],
     "mouse":[
         {
-            "name": "Disco SSD Kingston A400 240GB",
-            "price": 29.999,
-            "image": "./assets/images/SSD1.png",
-            "alt": "Disco SSD Kingston A400 240GB"
+            "name": "Mouse Redragon Griffin White M607 RGB ",
+            "price": 7.495,
+            "image": "./assets/images/Mouse1.png",
+            "alt": "Mouse Redragon Griffin White"
         },
         {
-            "name": "Disco SSD Kingston A400 240GB",
-            "price": 29.999,
-            "image": "./assets/images/SSD1.png",
-            "alt": "Disco SSD Kingston A400 240GB"
+            "name": "Mouse T-Dagger Recruit 2 TGM108 ",
+            "price": 3.445,
+            "image": "./assets/images/Mouse2.png",
+            "alt": "Mouse T-Dagger Recruit 2"
         },
         {
-            "name": "Disco SSD Kingston A400 240GB",
-            "price": 29.999,
-            "image": "./assets/images/SSD1.png",
-            "alt": "Disco SSD Kingston A400 240GB"
+            "name": "Mouse Microsoft Bluetooth Pastel Blue",
+            "price": 5.745,
+            "image": "./assets/images/Mouse3.png",
+            "alt": "Mouse Microsoft Bluetooth Pastel Blue"
+        },
+        {
+            "name": "Mouse Cooler Master MM710 Black Mate",
+            "price": 12.349,
+            "image": "./assets/images/Mouse4.png",
+            "alt": "Mouse Cooler Master MM710 Black Mate"
         }
     ]
     

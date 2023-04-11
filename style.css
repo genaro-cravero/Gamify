@@ -24,6 +24,17 @@ body{
     background-image: url(./assets/images/bg.jpg);
     background-size: cover;
 }
+@keyframes imageButton{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 /*// Header*/
 
@@ -127,13 +138,13 @@ main h2{
 }
 
 /*? Categories*/
-.categoriesSection{
+.categoriesSection, .usSection{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.categoriesSection .categories{
+.categoriesSection .categories, .usSection .us{
     background-color: rgba(90, 0, 0, 0.854);
     color: #ffff;
     display: flex;
@@ -200,10 +211,10 @@ main h2{
 
 }
 .card img{
-    width: 80%;
+    height: 25vh;
     -webkit-filter: drop-shadow(0 0 10px #FF5656);
     filter: drop-shadow(0 0 10px #FF5656);
-    opacity: .8;
+    opacity: .7;
     transition: 0.2s;
 }
 .card h3{
@@ -221,7 +232,7 @@ main h2{
 }
 .card button{
     background-color: #FF5656;
-    color: #ffff;
+    color: #d5b7b7;
     font-size: 1.5rem;
     font-family: 'Stefans';
     font-weight: 100;
@@ -232,15 +243,35 @@ main h2{
 }
 .card:hover img{
     transition: 1s;
-    transform: scale(1.1) translateY(-2vh);
+    -webkit-filter: drop-shadow(0 0 10px #ffd1d1);
+    filter: drop-shadow(0 0 10px #ffd1d1);
+    transform: scale(1.15) translateY(-2vh);
     opacity: 1;
 
 }
 .card:hover{
     transition: 1s;
     height: 47vh;
-    background: linear-gradient( rgba(59, 0, 0, 0.411), rgba(90, 0, 0, 0.854), rgb(136, 1, 1));
+    background-color: rgb(136, 1, 1);
 }
+.card button:hover{
+    background-color: #ff2323;
+    color: #ffff;
+    font-size: 1.5rem;
+    font-family: 'Stefans';
+    font-weight: 100;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    transition: .3s;
+}
+.card button:active{
+    background-color: #a41313;
+}
+
+/*? Us*/
+
 /*// Footer*/
 footer{
     background-color: rgba(90, 0, 0, 0.854);
@@ -264,4 +295,19 @@ footer h2{
     font-size: 2.5rem;
     font-family: 'Arista Pro';
     margin-top: 1rem;
+}
+footer h2 i{
+    font-size: 3rem;
+}
+footer .bi-whatsapp:hover{
+    color: #25D366;
+    transition: .3s;
+}
+footer .bi-facebook:hover{
+    color: #3b5998;
+    transition: .3s;
+}
+footer .bi-instagram:hover{
+   color: #C13584;
+    transition: .3s;
 }
