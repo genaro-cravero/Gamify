@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamify</title>
-    <link rel="shortcut icon" href="./assets/images/GamifyLogo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gamify</title>
+    <link rel="shortcut icon" href="./assets/images/GamifyLogo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
     <!--! Header -->
 
     <header>
-        <img src="./assets/images/GamifyLogo.png" alt="Logo">
+        <img src="./assets/images/GamifyLogo.png" alt="Logo" />
         <nav>
             <a href="#categories">PRODUCTOS</a>
             <a href="#us">NOSOTROS</a>
-            <a href="">CONTACTO</a>
+            <a href="#contact">CONTACTO</a>
             <a href=""><i class="bi bi-cart"></i></a>
         </nav>
     </header>
@@ -28,30 +29,30 @@
         <!--* Video -->
         <section class="videoSection">
             <video autoplay loop>
-                <source src="./assets/videos/Loop.mov" type="video/mp4">
+                <source src="./assets/videos/Loop.mov" type="video/mp4" />
             </video>
             <div class="textVideo">
                 <h1>
-                    ARMÁ TU SETUP <br>
+                    ARMÁ TU SETUP <br />
                     CON NOSOTROS
                 </h1>
-                <h2>CONSULTÁ POR MEDIOS DE PAGO</h2>
+                <h2>ARMALA AHORA MISMO</h2>
             </div>
         </section>
 
         <!--* Categorias -->
-        <section class="categoriesSection"  id="categories">
+        <section class="categoriesSection" id="categories">
             <h2>CATEGORÍAS FRECUENTES</h2>
             <div class="categories">
                 <nav>
-                    <a href="#monitors"><i class="bi bi-display"></i> <br>Monitores</a>
-                    <a href="#keyboards"><i class="bi bi-keyboard"></i><br>Teclados</a>
-                    <a href="#headsets"><i class="bi bi-headset"></i><br>Auriculares</a>
+                    <a href="#monitors"><i class="bi bi-display"></i> <br />Monitores</a>
+                    <a href="#keyboards"><i class="bi bi-keyboard"></i><br />Teclados</a>
+                    <a href="#headsets"><i class="bi bi-headset"></i><br />Auriculares</a>
                 </nav>
                 <nav>
-                    <a href="#storage"><i class="bi bi-sd-card"></i><br>Almacenamiento</a>
-                    <a href="#cpu"><i class="bi bi-cpu"></i><br>Procesadores</a>
-                    <a href="#mouse"><i class="bi bi-mouse"></i><br>Mouse</a>
+                    <a href="#storage"><i class="bi bi-sd-card"></i><br />Almacenamiento</a>
+                    <a href="#cpu"><i class="bi bi-cpu"></i><br />Procesadores</a>
+                    <a href="#mouse"><i class="bi bi-mouse"></i><br />Mouse</a>
                 </nav>
             </div>
         </section>
@@ -84,34 +85,94 @@
         <section class="usSection" id="us">
             <h2>Nosotros</h2>
             <div class="us">
+                <div class="usDiv">
+                    <div class="imageUs">
+                        <img src="./assets/images/GNC.jpeg" alt="Genaro Nicolás Cravero" />
+                        <p style="text-align: center;"><br> Mail de contacto: <br> nicocraveroo@gmail.com</p>
+                    </div>
+                    <p>
+                        Hola! Soy Genaro Cravero. <br />
+                        El desarrollo de esta landing page de simulación de una e-commerce
+                        ha sido realizado en 2023, con el objetivo de aplicar los
+                        conocimientos obtenidos durante el cursado de Argentina Programa
+                        4.0. <br />
+                        <br />
+                        Poseo conocimientos en desarrollo web: <br />
+
+                        <i class="bi bi-code"></i> HTML <br />
+                        <i class="bi bi-code-slash"></i> CSS <br />
+                        <i class="bi bi-braces"></i> JavaScript <br />
+                        <br>
+                        Y en el dessarrollo de videojuegos: <br />
+                        <i class="bi bi-unity"></i> Unity con C# <br />
+                        <i class="bi bi-browser-chrome"></i> Phaser con JavaScript <br />
+                        <i class="bi bi-diagram-3-fill"></i> Unreal Engine con blueprints <br />
+                        <br>
+                        Links a proyectos realizados con Phaser para la universidad: <br />
+                        <a href="https://genaro-cravero.github.io/Arkanoid/" target="_blank">Arkanoid</a><br>
+                        <a href="https://iocusstudio.github.io/Heroes-de-la-Gripe/" target="_blank">Heroes de la Gripe</a>
+
+                    </p>
+                </div>
+
+                <a href="./assets/CV Genaro Nicolás Cravero.pdf" download="" class="downButton"> Descargar CV</a>
+                
             </div>
         </section>
 
-
+        <!--* Contacto  -->
+        <section class="contactSection" id="contact" >
+            <h2>Contacto</h2>
+            <div class="contactDiv">
+                <div class="contactForm">
+                    <form action="">
+                        <input type="text" placeholder="Nombre" />
+                        <input type="email" placeholder="Email" />
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="contactInfo">
+                    <h3>Información de contacto</h3>
+                    <p>
+                        <i class="bi bi-geo-alt"></i> Calle falsa 1138, Santa fe, Argentina.
+                        <br />
+                        <i class="bi bi-telephone"></i> +54 9 341 123 4567
+                        <br />
+                        <i class="bi bi-envelope"></i> consultas@gamify.com 
+                    </p>
+                </div>
+            </div>
+        </section>
 
     </main>
 
     <!--! Footer -->
     <footer>
-        <img src="./assets/images/GamifyLogo.png" alt="Logo">
+        <img src="./assets/images/GamifyLogo.png" alt="Logo" />
         <p>
-            Somos la tienda de computación y videojuegos <br>
-            Nº1 en Argentina. Nacimos con el propósito <br>
-            de satisfacer a todos los jugadores de todas <br>
-            las plataformas. Tenemos lo último en juegos <br>
+            Somos la tienda de computación y videojuegos <br />
+            Nº1 en Argentina. Nacimos con el propósito <br />
+            de satisfacer a todos los jugadores de todas <br />
+            las plataformas. Tenemos lo último en juegos <br />
             de consola y perifericos.
         </p>
         <div>
-            <h2>SEGUINOS <i class="bi bi-whatsapp"></i> <i class="bi bi-facebook"></i> <i class="bi bi-instagram"></i></h2>
+            <h2>
+                SEGUINOS <i class="bi bi-whatsapp"></i>
+                <i class="bi bi-facebook"></i> <i class="bi bi-instagram"></i>
+            </h2>
+            <br />
             <p>
-                <i class="bi bi-geo-alt"></i> Calle falsa 1138, Santa fe, Argentina. <br>
-                ventas@gamify.com <br>
+                <i class="bi bi-geo-alt"></i> Calle falsa 1138, Santa fe, Argentina.
+                <br />
+                ventas@gamify.com <br />
                 consultas@gamify.com
             </p>
         </div>
     </footer>
 
-
     <script src="./script.js"></script>
 </body>
+
 </html>

@@ -2,312 +2,375 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
 /** Fonts*/
 @font-face {
-    font-family: 'Arista Pro';
-    src: url(./assets/fonts/Arista-Pro-Regular-trial.ttf);
+  font-family: "Arista Pro";
+  src: url(./assets/fonts/Arista-Pro-Regular-trial.ttf);
 }
 @font-face {
-    font-family: 'Stefans';
-    src: url(./assets/fonts/Stefans-Uhr-Square.ttf);
+  font-family: "Stefans";
+  src: url(./assets/fonts/Stefans-Uhr-Square.ttf);
 }
 @font-face {
-    font-family: 'Good Timing';
-    src: url(./assets/fonts/good-timing-bd.otf);
+  font-family: "Good Timing";
+  src: url(./assets/fonts/good-timing-bd.otf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-image: url(./assets/images/bg.jpg);
-    background-size: cover;
-}
-@keyframes imageButton{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(100px);
-    }
-    100%{
-        transform: translateY(0);
-    }
+body {
+  background-image: url(./assets/images/bg.jpg);
+  background-size: cover;
 }
 
 /*// Header*/
 
-header{
-    background-color: rgba(90, 0, 0, 0.854);
-    color: #ffff;
-    height: 13vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    padding-left: 5%;
-    display: flex;
-    align-items: center;
-    justify-content:flex-start;
+header {
+  background-color: rgba(90, 0, 0, 0.854);
+  color: #ffff;
+  height: 13vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  padding-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-header img{
-    width: 150px;
-    height: 150px;
+header img {
+  height: 12vh;
 }
-header nav{
-    margin-left: 20%;
-    display: flex;
-    gap: 35px;
+header nav {
+  margin-left: 20vw;
+  display: flex;
+  gap: 3vw;
 }
-header nav a{
-    text-decoration: none;
-    color: #ffff;
-    font-size: 1.8rem;
-    font-family: 'Arista Pro';
-    letter-spacing: 0.3rem;
-    display: flex;
-    align-items: center;
+header nav a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 1.8rem;
+  font-family: "Arista Pro";
+  letter-spacing: 0.3rem;
+  display: flex;
+  align-items: center;
 }
-header nav a i{
-    font-size: 2.5rem;
-
+header nav a i {
+  font-size: 100%;
 }
-header nav a:hover{
-    font-size: 1.9rem;
-    transition: 0.5s;
-    text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
-    
+header nav a:hover {
+  font-size: 1.9rem;
+  transition: 0.5s;
+  text-shadow: 0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0),
+    0 0 25px rgb(255, 108, 140);
 }
-header nav a i:hover{
-    font-size: 2.7rem;
-    transition: 0.3s;
-    text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
+header nav a i:hover {
+  font-size: 110%;
+  transition: 0.3s;
+  text-shadow: 0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0),
+    0 0 25px rgb(255, 108, 140);
 }
-
 
 /*// Main*/
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-main h2{
-    color: #ffff;
-    font-size: 1.8rem;
-    font-family: 'Arista Pro';
-    letter-spacing: 0.3rem;
-    margin-top: 3rem;
-    padding-top: 1vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(#fb7f7fd3, #ff5656d5);
-    width: 38vw;
-    height: 4vh;
-    border-radius: 2rem;
-    box-shadow: 0 0 30px 10px #FF5656;
+main h2 {
+  color: #ffff;
+  font-size: 1.8rem;
+  font-family: "Arista Pro";
+  letter-spacing: 0.3rem;
+  margin-top: 3rem;
+  padding-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(#fb7f7fd3, #ff5656d5);
+  width: 38vw;
+  height: 4vh;
+  border-radius: 2rem;
+  box-shadow: 0 0 30px 10px #ff5656;
 }
 /*? Video*/
-.videoSection video{
-    width: 100%;
-    margin-top: -5%;
-    z-index: -1;
+.videoSection video {
+  width: 100%;
+  margin-top: -5%;
+  z-index: -1;
 }
-.videoSection{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
+.videoSection,
+.imageUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.videoSection .textVideo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+.videoSection .textVideo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
 }
-.videoSection h1{
-    font-family: 'Good Timing';
-    font-size: 8rem;
-    color: #ffff;
-    text-align: center;
-    text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
+.videoSection h1 {
+  font-family: "Good Timing";
+  font-size: 6vw;
+  color: #ffff;
+  text-align: center;
+  text-shadow: 0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0),
+    0 0 25px rgb(255, 108, 140);
 }
 
 /*? Categories*/
-.categoriesSection, .usSection{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.categoriesSection,
+.usSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.categoriesSection .categories, .usSection .us{
-    background-color: rgba(90, 0, 0, 0.854);
-    color: #ffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 5rem;
-    height: 60vh;
-    width: 80vw;
-    padding: 1rem;
-    gap: 25%;
+.categoriesSection .categories,
+.usSection .us, .contactSection .contactDiv {
+  background-color: rgba(90, 0, 0, 0.854);
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+  height: 60vh;
+  width: 80vw;
+  padding: 1%;
+  gap: 25%;
 }
-.categoriesSection a{
-    text-decoration: none;
-    color: #ffff;
-    font-size: 2rem;
-    font-family: 'Stefans';
-    width: 100%;    
-    text-align: center;
-    transition: 0.2s;
-
+.categoriesSection a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 2rem;
+  font-family: "Stefans";
+  width: 100%;
+  text-align: center;
+  transition: 0.2s;
 }
-.categoriesSection a i{
-    font-size: 7rem;
+.categoriesSection a i {
+  font-size: 10vh;
 }
-.categoriesSection a:hover{
-    font-size: 2.3rem;
-    transition: 0.5s;
-    text-shadow:  0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0), 0 0 25px rgb(255, 108, 140);
+.categoriesSection a:hover {
+  font-size: 2.3rem;
+  transition: 0.5s;
+  text-shadow: 0px 0px 5px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 0),
+    0 0 25px rgb(255, 108, 140);
 }
-.categoriesSection nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+.categoriesSection nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 /*? Cards*/
-.products{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
 }
-.monitorsContainer, .keyboardsContainer, .headsetsContainer, .cpuContainer,.storageContainer ,.mouseContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
+.monitorsContainer,
+.keyboardsContainer,
+.headsetsContainer,
+.cpuContainer,
+.storageContainer,
+.mouseContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
 }
-.card{
-    background-color: rgba(90, 0, 0, 0.854);
-    color: #ffff;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-    align-items: center;
-    margin: 1rem;
-    height: 50vh;
-    width: 20vw;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    transition: 0.2s;
-
+.card {
+  background-color: rgba(90, 0, 0, 0.854);
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1%;
+  height: 50vh;
+  width: 20vw;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  transition: 0.2s;
 }
-.card img{
-    height: 25vh;
-    -webkit-filter: drop-shadow(0 0 10px #FF5656);
-    filter: drop-shadow(0 0 10px #FF5656);
-    opacity: .7;
-    transition: 0.2s;
+.card img {
+  height: 25vh;
+  -webkit-filter: drop-shadow(0 0 10px #ff5656);
+  filter: drop-shadow(0 0 10px #ff5656);
+  opacity: 0.7;
+  transition: 0.2s;
 }
-.card h3{
-    font-size: 1.3rem;
-    font-family: 'Stefans';
-    text-align: center;
-    font-weight: 100;
-    margin-top: 1rem;
+.card h3 {
+  font-size: 1.3rem;
+  font-family: "Stefans";
+  text-align: center;
+  font-weight: 100;
+  margin-top: 1%;
 }
-.card p{
-    font-size: 2.5rem;
-    font-family: 'Good Timing';
-    font-weight: 100;
-    margin-top: 1rem;
+.card p {
+  font-size: 2.5rem;
+  font-family: "Good Timing";
+  font-weight: 100;
+  margin-top: 1%;
 }
-.card button{
-    background-color: #FF5656;
-    color: #d5b7b7;
-    font-size: 1.5rem;
-    font-family: 'Stefans';
-    font-weight: 100;
-    margin-top: 1rem;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 0.5rem;
+.card button {
+  background-color: #ff5656;
+  color: #d5b7b7;
+  font-size: 1.5rem;
+  font-family: "Stefans";
+  font-weight: 100;
+  margin-top: 1%;
+  padding: 0.5%;
+  border: none;
+  height: 10%;
+  border-radius: 0.5rem;
 }
-.card:hover img{
-    transition: 1s;
-    -webkit-filter: drop-shadow(0 0 10px #ffd1d1);
-    filter: drop-shadow(0 0 10px #ffd1d1);
-    transform: scale(1.15) translateY(-2vh);
-    opacity: 1;
-
+.card:hover img {
+  transition: 1s;
+  -webkit-filter: drop-shadow(0 0 10px #ffd1d1);
+  filter: drop-shadow(0 0 10px #ffd1d1);
+  transform: scale(1.15) translateY(-2vh);
+  opacity: 1;
 }
-.card:hover{
-    transition: 1s;
-    height: 47vh;
-    background-color: rgb(136, 1, 1);
+.card:hover {
+  transition: 1s;
+  height: 47vh;
+  background-color: rgb(136, 1, 1);
 }
-.card button:hover{
-    background-color: #ff2323;
-    color: #ffff;
-    font-size: 1.5rem;
-    font-family: 'Stefans';
-    font-weight: 100;
-    margin-top: 1rem;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 0.5rem;
-    transition: .3s;
+.card button:hover {
+  background-color: #ff2323;
+  color: #ffff;
+  font-size: 1.5rem;
+  font-family: "Stefans";
+  font-weight: 100;
+  margin-top: 1%;
+  padding: 0.5%;
+  border: none;
+  border-radius: 0.5rem;
+  transition: 0.3s;
 }
-.card button:active{
-    background-color: #a41313;
+.card button:active {
+  background-color: #a41313;
 }
 
 /*? Us*/
+.usSection .us {
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: "Stefans";
+  height: 60%;
+  gap: 2%;
+}
+.usSection .usDiv {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+
+.usSection img {
+  width: 20vw;
+  border-radius: 15px;
+}
+.usSection a {
+  color: #ffff;
+  text-shadow: 0px 0px 5px rgb(255, 255, 255), 0 0 10px rgb(255, 0, 0),
+    0 0 10px rgb(255, 108, 140);
+  text-decoration: none;
+}
+.usSection a:hover {
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  text-decoration: underline;
+  transition: .3s;
+}
+.downButton {
+  background-color: #ff5656;
+  color: #d5b7b7;
+  font-size: 1.5rem;
+  font-family: "Stefans";
+  font-weight: 100;
+  padding: 0.5%;
+  border: none;
+  height: 10%;
+  width: 20%;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+/*? Contact*/
+.contactSection .contactDiv{
+    justify-content: flex-start;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: "Stefans";
+    height: 60%;
+    gap: 2%;
+}
+.contactSection form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+} 
+  
+
 
 /*// Footer*/
-footer{
-    background-color: rgba(90, 0, 0, 0.854);
-    color: #ffff;
-    height: 30vh;
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: static;
-    bottom: 0;
+footer {
+  background-color: rgba(90, 0, 0, 0.854);
+  color: #ffff;
+  height: 30vh;
+  width: 100%;
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: static;
+  bottom: 0;
+  margin-top: 5%;
 }
 
-footer p{
-    font-size: 1.5rem;
-    font-family: 'Stefans';
-    margin-top: 1rem;
+footer p {
+  font-size: 2.5vh;
+  font-family: "Stefans";
+  margin-top: 1%;
 }
-footer h2{
-    font-size: 2.5rem;
-    font-family: 'Arista Pro';
-    margin-top: 1rem;
+footer h2 {
+  font-size: 4vh;
+  font-family: "Arista Pro";
+  margin-top: 1%;
 }
-footer h2 i{
-    font-size: 3rem;
+footer h2 i {
+  font-size: 5vh;
 }
-footer .bi-whatsapp:hover{
-    color: #25D366;
-    transition: .3s;
+footer .bi-whatsapp:hover {
+  color: #25d366;
+  transition: 0.3s;
 }
-footer .bi-facebook:hover{
-    color: #3b5998;
-    transition: .3s;
+footer .bi-facebook:hover {
+  color: #3b5998;
+  transition: 0.3s;
 }
-footer .bi-instagram:hover{
-   color: #C13584;
-    transition: .3s;
+footer .bi-instagram:hover {
+  color: #c13584;
+  transition: 0.3s;
+}
+footer img {
+  height: 20vh;
 }
