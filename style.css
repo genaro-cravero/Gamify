@@ -75,11 +75,13 @@ header nav a i:hover {
 }
 
 /*// Main*/
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 main h2 {
   color: #ffff;
   font-size: 1.8rem;
@@ -97,6 +99,7 @@ main h2 {
   border-radius: 2rem;
   box-shadow: 0 0 30px 10px #ff5656;
 }
+
 /*? Video*/
 .videoSection video {
   width: 100%;
@@ -128,14 +131,16 @@ main h2 {
 
 /*? Categories*/
 .categoriesSection,
-.usSection {
+.usSection,
+.contactSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .categoriesSection .categories,
-.usSection .us, .contactSection .contactDiv {
+.usSection .us,
+.contactSection .contactDiv {
   background-color: rgba(90, 0, 0, 0.854);
   color: #ffff;
   display: flex;
@@ -295,7 +300,7 @@ main h2 {
 .usSection a:hover {
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
   text-decoration: underline;
-  transition: .3s;
+  transition: 0.3s;
 }
 .downButton {
   background-color: #ff5656;
@@ -311,25 +316,67 @@ main h2 {
   text-align: center;
 }
 /*? Contact*/
-.contactSection .contactDiv{
-    justify-content: flex-start;
-    padding-left: 3%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    font-family: "Stefans";
-    height: 60%;
-    gap: 2%;
+.contactSection .contactDiv {
+  justify-content: flex-start;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: "Stefans";
+  height: 60%;
+  gap: 2%;
+}
+.contactSection .contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .contactSection form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    height: 100%;
-} 
-  
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  height: 100%;
+  width: 50%;
+}
+.contactSection textarea {
+  width: 100%;
+  height: 15vh;
+  border: none;
+  border-bottom: 1px solid #ff5656;
+  padding: 1%;
+  font-size: 1.5rem;
+  font-family: "Stefans";
+  font-weight: 100;
+  background-color: #00000000;
+  color: #ffff;
+}
+.contactSection input {
+  width: 100%;
+  height: 5vh;
+  border: none;
+  border-bottom: 1px solid #ff5656;
+  padding: 1%;
+  font-size: 1.5rem;
+  font-family: "Stefans";
+  font-weight: 100;
+  background-color: #00000000;
+  color: #ffff;
+}
+.contactSection .downButton {
+  background-color: #ff5656;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Stefans";
+  font-weight: 100;
+  padding: 0.5%;
+  border: none;
+  height: 10%;
+  width: 30%;
+  align-self: center;
+  border-radius: 0.5rem;
+  text-align: center;
+}
 
 /*// Footer*/
 footer {
@@ -374,3 +421,76 @@ footer .bi-instagram:hover {
 footer img {
   height: 20vh;
 }
+
+@media screen and (max-width: 1600px ){
+  .card img{
+    height: 20vh;
+  }
+}
+@media screen and (max-width: 1400px ){
+  .card img, footer img{
+    height: 15vh;
+  }
+  footer p {
+    font-size: 1.5vh;
+  }
+  footer h2 {
+    font-size: 3vh;
+  }
+  footer h2 i {
+    font-size: 4vh;
+  }
+}
+
+@media screen and (max-width: 1100px ){
+  
+  header {
+    height: 8vh;
+  }
+  header img {
+    height: 8vh;
+  }
+  header nav {
+    margin-left: 10%;
+    display: flex;
+    gap: 3vw;
+  }
+  header nav a {
+    font-size: 1.2rem;
+  }
+  header nav a i {
+    font-size: 100%;
+  }
+  header nav a:hover {
+    font-size: 1.3rem;
+  }
+  header nav a i:hover {
+    font-size: 110%;
+  }
+
+
+  main h2{
+    font-size: 1rem;
+  }
+  .categoriesSection a{
+    font-size: 1rem;
+  }
+  .categoriesSection a:hover{
+    font-size: 1.3rem;
+  }
+  
+  .card img, footer img{
+    height: 10vh;
+  }
+  footer p {
+    font-size: 1vh;
+  }
+  footer h2 {
+    font-size: 2vh;
+  }
+  footer h2 i {
+    font-size: 3vh;
+  }
+
+}
+  

@@ -125,12 +125,19 @@
             <h2>Contacto</h2>
             <div class="contactDiv">
                 <div class="contactForm">
-                    <form action="">
-                        <input type="text" placeholder="Nombre" />
-                        <input type="email" placeholder="Email" />
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                        <button type="submit">Enviar</button>
-                    </form>
+                    <form>
+                        <label for="name">Tu nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Nombre"><br><br>
+                      
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email"><br><br>
+                      
+                        <label for="msj">Mensaje</label>
+                        <textarea id="msj" name="msj" placeholder="Escriba su mensaje aquí..."></textarea><br><br>
+                      
+                        <input type="submit" value="Enviar" class="downButton">
+                      </form>
+                      
                 </div>
                 <div class="contactInfo">
                     <h3>Información de contacto</h3>
