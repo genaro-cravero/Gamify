@@ -77,13 +77,13 @@ function changeAtributtes() {
       logo1.src = './assets/images/GamifyLogo.png';
       logo2.src = './assets/images/GamifyLogo.png';
       video.src = './assets/videos/Loop.mov';
-      favicon.href = './assets/images/Logo.png';
+      favicon.href = './assets/images/GamifyLogo.png';
       style.href = './style.css';
     } else {
       logo1.src = './assets/images/GamifyLogoYellow.png';
       logo2.src = './assets/images/GamifyLogoYellow.png';
       video.src = './assets/videos/LoopYellow.mp4';
-      favicon.href = './assets/images/LogoYellow.png';
+      favicon.href = './assets/images/GamifyLogoYellow.png';
       style.href = './stylebh.css';
     }
   }
