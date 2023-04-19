@@ -37,3 +37,28 @@ async function getProducts(){
 }
 getProducts();
 
+const form = document.querySelector('form');
+const submitButton = document.querySelector('input[type="submit"]');
+function enviarFormulario(event) {
+  event.preventDefault(); 
+  
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const msg = document.getElementById('msg').value;
+
+  const datosFormulario = { name, email, msg };
+
+  let messages = localStorage.getItem('messages');
+
+  if (!messages) {
+    messages = [];
+  }
+  
+  messages.push(datosFormulario);
+
+  localStorage.setItem('messages', JSON.stringify(messages));
+
+  form.reset();
+}
+
+form.addEventListener('submit', enviarFormulario);
