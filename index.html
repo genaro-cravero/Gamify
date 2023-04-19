@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gamify</title>
-    <link rel="shortcut icon" href="./assets/images/GamifyLogo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./assets/images/GamifyLogoYellow.png" type="image/x-icon" id="favicon"/>
+    <link rel="stylesheet" href="./stylebh.css" id="style"/>
 </head>
 
 <body>
     <!--! Header -->
 
     <header>
-        <img src="./assets/images/GamifyLogo.png" alt="Logo" />
+        <img src="./assets/images/GamifyLogoYellow.png" alt="Logo" id="logo1" />
         <nav>
             <a href="#categories">PRODUCTOS</a>
             <a href="#us">NOSOTROS</a>
             <a href="#contact">CONTACTO</a>
-            <a href=""><i class="bi bi-cart"></i></a>
+            <a onclick="changeAtributtes()"><i class="bi bi-palette-fill"></i></i></a>
         </nav>
     </header>
 
@@ -28,8 +28,8 @@
     <main>
         <!--* Video -->
         <section class="videoSection">
-            <video autoplay muted loop>
-                <source src="./assets/videos/Loop.mov" type="video/mp4" />
+            <video autoplay muted loop id="video">
+                <source src="./assets/videos/LoopYellow.mp4" type="video/mp4" />
             </video>
             <div class="textVideo">
                 <h1>
@@ -178,7 +178,7 @@
 
     <!--! Footer -->
     <footer>
-        <img src="./assets/images/GamifyLogo.png" alt="Logo" />
+        <img src="./assets/images/GamifyLogoYellow.png" alt="Logo" id="logo2" />
         <p>
             Somos la tienda de computación y videojuegos <br />
             Nº1 en Argentina. Nacimos con el propósito <br />
